@@ -42,9 +42,16 @@ main {
     text-align: center;
 
 }
-
+.heading{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
 .paragraph {
     margin: 18px 0;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .form {
