@@ -154,6 +154,7 @@ ul li:first-child::after{
 ul li a {
     text-decoration: none;
     font-size: 14px;
+    color: #545454;
 }
 
 .footer-paragraph {
