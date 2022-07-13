@@ -3,7 +3,6 @@ document.getElementById('form').addEventListener('submit', (event) => {
     const companyName = event.target.name.value;
     const industryName = event.target.industry.value;
     const companySize = event.target.size.value;
-    console.log()
     if(industryName == "Select"){
         alert("Please select Industry")
 
