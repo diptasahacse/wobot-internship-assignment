@@ -11,6 +11,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
 header {
     padding: 10px 0;
 }
@@ -26,7 +30,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+
 }
 
 .form-container {
@@ -42,12 +46,18 @@ main {
     text-align: center;
 
 }
-.heading{
-    font-size: 26px;
-    font-weight: 500;
+
+.heading {
     margin-top: 26px;
     margin-bottom: 16px;
 }
+
+.heading h3 {
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
 .paragraph {
     margin: 18px 0;
     font-size: 14px;
@@ -115,4 +125,32 @@ input[type="radio"]:checked+.radio-label {
     padding: 10px 0;
     width: 100%;
     cursor: pointer;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+ul li {
+    list-style: none;
+
+}
+ul li:first-child::after{
+    content: '|';
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-paragraph {
+    font-size: 12px;
 }
